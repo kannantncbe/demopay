@@ -54,7 +54,7 @@
                             method="post" 
                             class="require-validation"
                             data-cc-on-file="false"
-                            data-stripe-publishable-key="pk_test_XwyAIEQ2aIoApjn80lqMin9L"
+                            data-stripe-publishable-key="your_key_here"
                             id="payment-form">
                         @csrf
   

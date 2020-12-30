@@ -17,7 +17,7 @@ class StripePaymentController extends Controller
 
     public function stripePost(Request $request)
     {
-        Stripe\Stripe::setApiKey("sk_test_8Ec85pzzbuHoNM0u1BIniXhk");
+        Stripe\Stripe::setApiKey("your_key_here");
         Stripe\Charge::create ([
                 "amount" => 100 * $request->payprice,
                 "currency" => "INR",
